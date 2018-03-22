@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="NonPivotedDataLoad"
   DTS:PackageType="5"
-  DTS:VersionBuild="9"
-  DTS:VersionGUID="{50AD671B-48E3-4C53-ABD2-B56456EF7C59}">
+  DTS:VersionBuild="10"
+  DTS:VersionGUID="{7724AAC9-5647-497B-B9BD-5BAEC3A002E7}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -57,7 +57,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA20FPWg5nPE6xPEirPqaYGAAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAAAs5aie6+Y3BrNxqEz0dUYxAAAAAASAAACgAAAAEAAAAMtUn8Br0OmLpHO6X2nPPOQYAAAAuPkFKdj+dwHIhT4sLu0bq354vmcDvM0+FAAAANqPFd5bil38NplJeFC7SRAxYq7v</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA20FPWg5nPE6xPEirPqaYGAAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADeMpLPhgZ/1APOJKnlpFvnAAAAAASAAACgAAAAEAAAAD/0MTY3GlET/T9rSNDpZ4MYAAAAEFEukrKM6dYQbXbMNT8eUJ+EPB395SFtFAAAAA8haiCkfflMGal7GhW2X+D/RQW7</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -1210,6 +1210,10 @@
           Size="169.6,41.6"
           Id="Package\PopulateDimTables"
           TopLeft="174.285717253782,196.376473342341" />
+        <NodeLayout
+          Size="166.4,41.6"
+          Id="Package\PopulateFactTable"
+          TopLeft="102.85714460879,277.129415651341" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
           TopLeft="178.07143021603,143.758824885015">
@@ -1244,10 +1248,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="166.4,41.6"
-          Id="Package\PopulateFactTable"
-          TopLeft="102.85714460879,277.129415651341" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 1]"
           TopLeft="259.085717253782,237.976473342341">
@@ -1289,7 +1289,7 @@
     design-time-name="Package\Data Flow Task">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="172,41.6"
           Id="Package\Data Flow Task\OLE DB Destination"
@@ -1329,7 +1329,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>

@@ -2,7 +2,7 @@
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
     <Name>SSIDDemo</Name>
-    <LastWriteTime>2018-03-12T08:12:23.70377Z</LastWriteTime>
+    <LastWriteTime>2018-03-22T04:19:25.6378051Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
@@ -13,7 +13,7 @@
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>NonPivotedDataLoad.dtsx</Name>
-      <LastWriteTime>2018-03-19T11:24:37.9603193Z</LastWriteTime>
+      <LastWriteTime>2018-03-22T04:18:54.8747364Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>
